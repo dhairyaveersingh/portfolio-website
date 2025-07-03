@@ -2,11 +2,10 @@ import { Card } from "@/components/ui/card";
 
 const AboutSection = () => {
   const skills = [
-    { name: "React.js", level: 95, category: "Frontend" },
+    { name: "C++", level: 95, category: "Backend" },
     { name: "Python", level: 90, category: "Backend" },
-    { name: "TypeScript", level: 88, category: "Frontend" },
     { name: "Machine Learning", level: 85, category: "AI/ML" },
-    { name: "PyTorch", level: 82, category: "AI/ML" },
+    { name: "Tensorflow", level: 82, category: "AI/ML" },
     { name: "Node.js", level: 80, category: "Backend" },
   ];
 
@@ -49,18 +48,10 @@ const AboutSection = () => {
                 </h3>
                 <div className="space-y-4 text-base leading-relaxed">
                   <p>
-                    I'm a Computer Science and Statistics student at the <span className="text-primary font-semibold">University of Illinois at Urbana-Champaign</span>, 
-                    maintaining a perfect 4.0 GPA while pursuing my passion for innovative technology.
+                    I'm a Computer Science and Statistics Major at the <span className="text-primary font-semibold">University of Illinois at Urbana-Champaign</span>.                   I’m a passionate and technically driven engineer who thrives on solving complex problems with elegant, scalable solutions. My interests lie deep in systems-level programming, algorithmic optimization, and efficient data structures—anything that pushes the boundaries of performance and precision.
                   </p>
                   <p>
-                    As an <span className="text-accent font-semibold">ISEF Grand Awardee ($7,500)</span>, I've demonstrated excellence in research and development, 
-                    particularly in the fields of AI and accessibility technology. My work focuses on 
-                    creating solutions that bridge the gap between cutting-edge technology and real-world impact.
-                  </p>
-                  <p>
-                    Currently serving as a <span className="text-primary font-semibold">Course Assistant for CS124 Honors</span> and having completed a 
-                    <span className="text-accent font-semibold"> Software Engineering Internship at Eli Lilly</span>, I enjoy mentoring students 
-                    and contributing to both academic and industry communities.
+                    Currently serving as a <span className="text-primary font-semibold">CS Course Assistant</span> and AI researcher at the <span className="text-primary font-semibold">University of Illinois</span>. I enjoy blending computational thinking with real-world impact. I’m excited by opportunities that challenge me across the stack—from low-level memory management to high-level design strategy.
                   </p>
                 </div>
               </Card>
@@ -104,10 +95,10 @@ const AboutSection = () => {
                     <h4 className="font-semibold text-lg">University of Illinois at Urbana-Champaign</h4>
                     <p className="text-muted-foreground">B.S. Statistics & Computer Science</p>
                     <div className="flex items-center space-x-4 mt-2">
-                      <span className="text-primary font-semibold">GPA: 4.0/4.0</span>
+                      <span className="text-primary font-semibold">GPA: 3.9/4.0</span>
                       <span className="text-accent font-semibold">Dean's List</span>
                     </div>
-                    <p className="text-sm text-muted-foreground mt-1">Expected Graduation: 2026</p>
+                    <p className="text-sm text-muted-foreground mt-1">Expected Graduation: 2027</p>
                   </div>
                 </div>
               </Card>
@@ -150,15 +141,16 @@ const AboutSection = () => {
                 </h3>
                 <div className="space-y-4">
                   <div className="border-l-4 border-accent pl-6">
-                    <h4 className="font-semibold">Course Assistant - CS124 Honors</h4>
-                    <p className="text-muted-foreground">University of Illinois at Urbana-Champaign</p>
+                    <h4 className="font-semibold">CS Course Assistant</h4>
+                    <p className="text-muted-foreground">University of Illinois   •   Present</p>
                     <p className="text-sm mt-2">Mentoring students and managing team projects in advanced computer science coursework.</p>
                   </div>
                   <div className="border-l-4 border-primary pl-6">
                     <h4 className="font-semibold">Former Software Engineer Intern</h4>
-                    <p className="text-muted-foreground">Eli Lilly and Company</p>
-                    <p className="text-sm mt-2">Contributed to healthcare technology solutions and pharmaceutical software systems.</p>
+                    <p className="text-muted-foreground">Eli Lilly and Company • 2025</p>
+                    <p className="text-sm mt-2">Developed and optimized internal tools for data analysis and reporting using Python and SQL,  implemented CI/CD pipelines for scalable deployments.</p>
                   </div>
+                  
                 </div>
               </Card>
             </div>

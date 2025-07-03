@@ -4,23 +4,10 @@ import { Badge } from "@/components/ui/badge";
 const ExperienceSection = () => {
   const experiences = [
     {
-      title: "Software Engineer Intern",
-      company: "Eli Lilly and Company",
-      period: "Summer 2024",
-      type: "Internship",
-      description: "Contributed to healthcare technology solutions and pharmaceutical software systems.",
-      achievements: [
-        "Developed scalable software solutions for pharmaceutical applications",
-        "Collaborated with cross-functional teams on critical healthcare projects",
-        "Implemented robust testing and deployment strategies"
-      ],
-      color: "primary"
-    },
-    {
       title: "Course Assistant",
       company: "University of Illinois at Urbana-Champaign",
       course: "CS124 Honors - Introduction to Computer Science",
-      period: "Fall 2023 - Present",
+      period: "Fall 2024 - Present",
       type: "Academic",
       description: "Mentoring students and managing team projects in computer science fundamentals.",
       achievements: [
@@ -32,9 +19,22 @@ const ExperienceSection = () => {
       color: "secondary"
     },
     {
+      title: "Software Engineer Intern",
+      company: "Eli Lilly and Company",
+      period: "Summer 2025",
+      type: "Internship",
+      description: "Contributed to healthcare technology solutions and pharmaceutical software systems.",
+      achievements: [
+        "Developed scalable software solutions for pharmaceutical applications",
+        "Collaborated with cross-functional teams on critical healthcare projects",
+        "Implemented robust testing and deployment strategies"
+      ],
+      color: "primary"
+    },
+    {
       title: "Research Assistant",
       company: "Centre for Development of Advanced Computing (C-DAC)",
-      period: "2022 - 2023",
+      period: "2023 - 2023",
       type: "Research",
       description: "Led research projects in AI, computer vision, and accessibility technology.",
       achievements: [
@@ -49,7 +49,7 @@ const ExperienceSection = () => {
       title: "IT Intern",
       company: "India Today Group",
       department: "LallanTop Digital Platform",
-      period: "Summer 2022",
+      period: "Summer 2023",
       type: "Internship",
       description: "Contributed to Android and web development for India's leading digital news platform.",
       achievements: [
@@ -95,7 +95,7 @@ const ExperienceSection = () => {
               Professional <span className="gradient-text">Experience</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Building expertise through diverse roles in technology, research, and education
+              Building expertise through diverse roles in technology, research, and development
             </p>
           </div>
 

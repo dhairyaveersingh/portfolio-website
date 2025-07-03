@@ -8,7 +8,7 @@ const AchievementsSection = () => {
       title: "ISEF Grand Award",
       organization: "International Science and Engineering Fair",
       amount: "$7,500",
-      year: "2023",
+      year: "2024",
       description: "Recognized for outstanding research in AI and computer vision for medical applications",
       type: "research"
     },
@@ -20,7 +20,7 @@ const AchievementsSection = () => {
       type: "research"
     },
     {
-      title: "Intel OneAPI Hackathon Winner",
+      title: "Intel OneAPI Hackathon Finalist",
       organization: "Intel Corporation",
       year: "2023",
       description: "First place for developing innovative solutions using Intel's OneAPI toolkit",
@@ -29,17 +29,16 @@ const AchievementsSection = () => {
     {
       title: "Dean's List",
       organization: "University of Illinois at Urbana-Champaign",
-      year: "2022-Present",
-      description: "Consistent academic excellence with 4.0 GPA",
+      year: "2025-Present",
+      description: "Consistent academic excellence with 4.0 GPA for the current semester.",
       type: "academic"
     }
   ];
 
   const hackathons = [
-    { name: "Intel OneAPI Hackathon", place: "1st Place" },
-    { name: "HackIllinois", place: "Top 10 Finalist" },
-    { name: "PennApps", place: "Best Accessibility Hack" },
-    { name: "HackMIT", place: "Innovation Award" }
+    { name: "Intel OneAPI Hackathon", place: "Finalist" },
+    { name: "HackIllinois", place: "Finalist" },
+    { name: "PennApps", place: "Finalist" },
   ];
 
   const getIcon = (type: string) => {
@@ -154,7 +153,7 @@ const AchievementsSection = () => {
                 Every award motivates me to push boundaries and create technology that makes a meaningful impact."
               </blockquote>
               <div className="mt-4 text-sm text-muted-foreground">
-                — Dhairya Veer Singh
+                — Someone, prolly...
               </div>
             </Card>
           </div>

@@ -131,7 +131,7 @@ const ProjectsSection = () => {
           {/* Other Projects */}
           {otherProjects.length > 0 && (
             <div>
-              <h3 className="text-2xl font-semibold mb-8 text-center">Other Projects</h3>
+              <h3 className="text-2xl font-semibold mb-8 text-center">Unmaintained Projects</h3>
               <div className="grid md:grid-cols-3 gap-6">
                 {otherProjects.map((project, index) => (
                   <Card 

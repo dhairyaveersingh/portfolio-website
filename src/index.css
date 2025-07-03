@@ -133,15 +133,15 @@
   }
 
   .glass-card {
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(19,41,75, 0.1);
     backdrop-filter: blur(20px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.2);
     box-shadow: var(--shadow-medium);
     transition: all 0.3s ease;
   }
 
   .glass-card:hover {
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 176, 131, 0.1);
     box-shadow: var(--shadow-large);
     transform: translateY(-2px);
   }
