@@ -134,7 +134,7 @@ const AchievementsSection = () => {
                 
                 <div className="text-center p-4 bg-muted/50 rounded-lg">
                   <div className="text-2xl font-bold text-primary">4.0</div>
-                  <div className="text-sm text-muted-foreground">Perfect GPA</div>
+                  <div className="text-sm text-muted-foreground">Technical GPA</div>
                 </div>
                 
                 <div className="text-center p-4 bg-muted/50 rounded-lg">
